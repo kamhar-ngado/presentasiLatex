@@ -1,0 +1,108 @@
+%%% Template ini dibuat oleh kamhar ngado menggunakan lisensi GPL Versi 2 
+%%%% link download www.github.com/kamhar-ngado/latex
+
+
+
+
+\documentclass[compress,red]{beamer}
+\usetheme{cambridgeUS}
+
+\usepackage{lipsum}
+\usepackage{amsmath, amsfonts, amssymb}
+\usepackage{graphicx}
+\usepackage{xcolor}
+\usepackage{fancybox}
+
+
+\title[LMS U Maxima 4 Calculus]{The Development of Learning Management System Using Maxima for Calculus Material Oriented to Mathematical Thinking and Problem Solving}
+\author[uny.ac.id]{Kamhar Ngado}
+\institute[\tiny{Yogyakarta State University}]{Yogyakarta State University}
+\date {\today}
+\logo{{\tiny{\textit{Taqwa, Mandiri, Cendekia}}}\includegraphics [scale=.1]{uny.jpg}}
+
+
+
+\begin{document}
+	
+	\begin{frame}[t]
+		\titlepage
+	\end{frame}
+	
+
+	\begin{frame}[t] {Daftar Isi}
+	\tableofcontents 
+	\end{frame}
+
+	\begin{frame}{animation}
+		\begin{enumerate}
+		\setbeamercovered{transparent}
+		\item \uncover<1>{enum1}			
+		\item \uncover<2>{enum2}
+		\item \uncover<3>{enum3}			
+		\item \uncover<4>{enum4}
+	\end{enumerate}
+	\end{frame}
+
+
+	\section{kamal handsome jump to introduction}%1
+	\begin{frame}[t] {Introduction}
+	content...
+		\begin{enumerate}[1] % [A] maka muncul A dan jika [1] maka muncul 1
+			\item [1.] enum 1
+			\item [2.] enum 2
+			
+			\begin{itemize}
+				\item [a.] first
+				\item [b.] second
+			\end{itemize}
+			\item [3.] enum 3
+		\end{enumerate}
+	\end{frame}
+
+	\section{kamal handsome jump to block}%2
+	\begin{frame}[t] {Block} %% t = top 
+		\begin{block}{Block title}
+			content...
+		\end{block}
+		\vfill %untuk enter
+		\begin{exampleblock} {title of example block}
+			text....
+		\end{exampleblock}
+		\vfill
+		\begin{exampleblock} {title of example block}
+		text....
+		\end{exampleblock}
+	\end{frame}
+
+	\section{ipsum}
+	\begin{frame}[t] {ipsum}
+	\lipsum [1]
+
+	\end{frame}
+	
+	\begin{frame}[t]{Memasukan Gambar}
+\begin{center}
+	Gambar 1. Logo UNY
+\end{center}	
+	\begin{figure}
+	\centering
+	\includegraphics[width=0.3\linewidth]{uny}
+	%\caption{}
+	\label{fig:uny}
+\end{figure}
+\end{frame}
+
+	\section{Dummy text \LaTeX}
+	\begin{frame}[t] {Dummy text \LaTeX}
+		  \textbf{Berpikir matematis}, menurut Mason, Burton, dan Stacey (1982), adalah \lipsum[2]
+	\end{frame}
+
+	\section{Thank You}
+	\begin{frame}[t] {The end}
+	\begin{center}
+	\LARGE{Thank You}\\email:\underline{kamhar.ngado.id@gmail.com}
+	\end{center}
+	\end{frame}
+
+
+\end{document}
